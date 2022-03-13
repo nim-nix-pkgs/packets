@@ -11,11 +11,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1647069270,
-        "narHash": "sha256-EBmBbUVLLLFRcrmy11oqjgn0xCi1bmGfs2GTFNwBU94=",
+        "lastModified": 1647112417,
+        "narHash": "sha256-8r0WwnVChhvBG0DuzgBrJB0INspJiK5PcrtYuk+kZR0=",
         "owner": "nim-nix-pkgs",
         "repo": "crc32",
-        "rev": "463eacd24a5f6d50ea4b2035ff71058bf8b50cf4",
+        "rev": "5578e3de1262497be929599a4a1c64504115d220",
         "type": "github"
       },
       "original": {
@@ -38,13 +38,20 @@
         "src-crc32-master": "src-crc32-master"
       },
       "locked": {
-        "narHash": "sha256-gekdxGnIxQAbCjY365l1Sl1mL7oxtgKexyH8Lz7hWDY=",
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "lastModified": 1647112417,
+        "narHash": "sha256-8r0WwnVChhvBG0DuzgBrJB0INspJiK5PcrtYuk+kZR0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "crc32",
+        "rev": "5578e3de1262497be929599a4a1c64504115d220",
+        "type": "github"
       },
       "original": {
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "crc32",
+        "type": "github"
       }
     },
     "flakeNimbleLib": {
@@ -93,11 +100,11 @@
         "packedjson-master": "packedjson-master"
       },
       "locked": {
-        "lastModified": 1647067875,
-        "narHash": "sha256-p7inUlSWUla9Kmqt9yIy0n/zxLzh1+acSugkB83Ivnk=",
+        "lastModified": 1647113277,
+        "narHash": "sha256-FO85NvUb7Q1LcKG7ZUsUfIX5J5e5n5LUxtl/U59Dgvo=",
         "owner": "nim-nix-pkgs",
         "repo": "packedjson",
-        "rev": "7498fe83f637c32db07444cbde9a7525a222d372",
+        "rev": "a25d93cf4cc783787cc339a2c5e84bba5b4c1aed",
         "type": "github"
       },
       "original": {
@@ -120,13 +127,20 @@
         "src-packedjson-0_1_0": "src-packedjson-0_1_0"
       },
       "locked": {
-        "narHash": "sha256-mKSRKDU3P0Nv9FupJJKodL1YsS8Va0iStlB0LTDNFcI=",
-        "path": "./0_1_0",
-        "type": "path"
+        "dir": "0_1_0",
+        "lastModified": 1647113277,
+        "narHash": "sha256-FO85NvUb7Q1LcKG7ZUsUfIX5J5e5n5LUxtl/U59Dgvo=",
+        "owner": "nim-nix-pkgs",
+        "repo": "packedjson",
+        "rev": "a25d93cf4cc783787cc339a2c5e84bba5b4c1aed",
+        "type": "github"
       },
       "original": {
-        "path": "./0_1_0",
-        "type": "path"
+        "dir": "0_1_0",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "packedjson",
+        "type": "github"
       }
     },
     "packedjson-0_2_1": {
@@ -142,13 +156,20 @@
         "src-packedjson-0_2_1": "src-packedjson-0_2_1"
       },
       "locked": {
-        "narHash": "sha256-lLf37vrtutXtkafUQ/SCVOKBEi1yc4S7myw60nKAulo=",
-        "path": "./0_2_1",
-        "type": "path"
+        "dir": "0_2_1",
+        "lastModified": 1647113277,
+        "narHash": "sha256-FO85NvUb7Q1LcKG7ZUsUfIX5J5e5n5LUxtl/U59Dgvo=",
+        "owner": "nim-nix-pkgs",
+        "repo": "packedjson",
+        "rev": "a25d93cf4cc783787cc339a2c5e84bba5b4c1aed",
+        "type": "github"
       },
       "original": {
-        "path": "./0_2_1",
-        "type": "path"
+        "dir": "0_2_1",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "packedjson",
+        "type": "github"
       }
     },
     "packedjson-0_2_2": {
@@ -164,13 +185,20 @@
         "src-packedjson-0_2_2": "src-packedjson-0_2_2"
       },
       "locked": {
-        "narHash": "sha256-KgHUMdlZxplbVfE815ulxqjLR0RsZklLirzrPV3Keac=",
-        "path": "./0_2_2",
-        "type": "path"
+        "dir": "0_2_2",
+        "lastModified": 1647113277,
+        "narHash": "sha256-FO85NvUb7Q1LcKG7ZUsUfIX5J5e5n5LUxtl/U59Dgvo=",
+        "owner": "nim-nix-pkgs",
+        "repo": "packedjson",
+        "rev": "a25d93cf4cc783787cc339a2c5e84bba5b4c1aed",
+        "type": "github"
       },
       "original": {
-        "path": "./0_2_2",
-        "type": "path"
+        "dir": "0_2_2",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "packedjson",
+        "type": "github"
       }
     },
     "packedjson-master": {
@@ -183,16 +211,23 @@
           "packedjson",
           "nixpkgs"
         ],
-        "src-crc32-master": "src-crc32-master_2"
+        "src-packedjson-master": "src-packedjson-master"
       },
       "locked": {
-        "narHash": "sha256-gekdxGnIxQAbCjY365l1Sl1mL7oxtgKexyH8Lz7hWDY=",
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "lastModified": 1647113277,
+        "narHash": "sha256-FO85NvUb7Q1LcKG7ZUsUfIX5J5e5n5LUxtl/U59Dgvo=",
+        "owner": "nim-nix-pkgs",
+        "repo": "packedjson",
+        "rev": "a25d93cf4cc783787cc339a2c5e84bba5b4c1aed",
+        "type": "github"
       },
       "original": {
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "packedjson",
+        "type": "github"
       }
     },
     "root": {
@@ -205,23 +240,6 @@
       }
     },
     "src-crc32-master": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1645054973,
-        "narHash": "sha256-0c1hWln2uTaxTSDP+1JQYT35muq3oz7FmgPDnF+kBlg=",
-        "owner": "juancarlospaco",
-        "repo": "nim-crc32",
-        "rev": "7a15fe78480e0b7e6bbe82a02617325d69940248",
-        "type": "github"
-      },
-      "original": {
-        "owner": "juancarlospaco",
-        "ref": "refs/heads/master",
-        "repo": "nim-crc32",
-        "type": "github"
-      }
-    },
-    "src-crc32-master_2": {
       "flake": false,
       "locked": {
         "lastModified": 1645054973,
@@ -285,6 +303,23 @@
       "original": {
         "owner": "Araq",
         "ref": "refs/tags/0.2.2",
+        "repo": "packedjson",
+        "type": "github"
+      }
+    },
+    "src-packedjson-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1607177406,
+        "narHash": "sha256-veQIFTkdECd7gS7SCJcxDdhZCUsIO11YHOwcgYrNAow=",
+        "owner": "Araq",
+        "repo": "packedjson",
+        "rev": "d11d167905f65935e31772c1edec88ca8fe055e2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Araq",
+        "ref": "refs/heads/master",
         "repo": "packedjson",
         "type": "github"
       }
