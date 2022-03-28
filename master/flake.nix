@@ -11,7 +11,6 @@
   inputs.src-packets-master.ref   = "refs/heads/master";
   inputs.src-packets-master.owner = "Q-Master";
   inputs.src-packets-master.repo  = "packets.nim";
-  inputs.src-packets-master.dir   = "";
   inputs.src-packets-master.type  = "github";
   
   inputs."packedjson".owner = "nim-nix-pkgs";
