@@ -1,32 +1,5 @@
 {
   "nodes": {
-    "crc32": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ],
-        "src-crc32-master": "src-crc32-master"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1656300841,
-        "narHash": "sha256-Ury3LhR5p1hCde/1RGrK4ReVOhvrcNdZii3PMfBbuLs=",
-        "owner": "nim-nix-pkgs",
-        "repo": "crc32",
-        "rev": "89e4b89b4f92685a0f915c8d363fd118ecde5525",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "crc32",
-        "type": "github"
-      }
-    },
     "flakeNimbleLib": {
       "inputs": {
         "nixpkgs": [
@@ -89,28 +62,10 @@
     },
     "root": {
       "inputs": {
-        "crc32": "crc32",
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
         "packedjson": "packedjson",
-        "src-packets-master": "src-packets-master"
-      }
-    },
-    "src-crc32-master": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1645054973,
-        "narHash": "sha256-0c1hWln2uTaxTSDP+1JQYT35muq3oz7FmgPDnF+kBlg=",
-        "owner": "juancarlospaco",
-        "repo": "nim-crc32",
-        "rev": "7a15fe78480e0b7e6bbe82a02617325d69940248",
-        "type": "github"
-      },
-      "original": {
-        "owner": "juancarlospaco",
-        "ref": "refs/heads/master",
-        "repo": "nim-crc32",
-        "type": "github"
+        "src-packets-v0_4_2": "src-packets-v0_4_2"
       }
     },
     "src-packedjson-0_2_2": {
@@ -130,7 +85,7 @@
         "type": "github"
       }
     },
-    "src-packets-master": {
+    "src-packets-v0_4_2": {
       "flake": false,
       "locked": {
         "lastModified": 1653765267,
@@ -142,7 +97,7 @@
       },
       "original": {
         "owner": "Q-Master",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/v0.4.2",
         "repo": "packets.nim",
         "type": "github"
       }
