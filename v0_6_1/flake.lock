@@ -1,32 +1,5 @@
 {
   "nodes": {
-    "crc32": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ],
-        "src-crc32-master": "src-crc32-master"
-      },
-      "locked": {
-        "dir": "master",
-        "lastModified": 1668748714,
-        "narHash": "sha256-H85tHkCn1ve4pf2GtUuukcV1OQJYCrC0f4Wd5WrkJ0M=",
-        "owner": "nim-nix-pkgs",
-        "repo": "crc32",
-        "rev": "aa2ba0fce4ef26a124a9db53dcc017e49c46f4b9",
-        "type": "github"
-      },
-      "original": {
-        "dir": "master",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "crc32",
-        "type": "github"
-      }
-    },
     "devshell": {
       "inputs": {
         "flake-utils": [
@@ -227,77 +200,14 @@
         "type": "indirect"
       }
     },
-    "packedjson": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "nixpkgs"
-        ],
-        "src-packedjson-0_2_2": "src-packedjson-0_2_2"
-      },
-      "locked": {
-        "dir": "0_2_2",
-        "lastModified": 1668748972,
-        "narHash": "sha256-YfMV0eCD0d8OKAEIEEz4chmUFGjLQ5VRneMt7xDOaDw=",
-        "owner": "nim-nix-pkgs",
-        "repo": "packedjson",
-        "rev": "a0c1ea60163913fc7543a5917b2c74d72c06fd69",
-        "type": "github"
-      },
-      "original": {
-        "dir": "0_2_2",
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "packedjson",
-        "type": "github"
-      }
-    },
     "root": {
       "inputs": {
-        "crc32": "crc32",
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs_2",
-        "packedjson": "packedjson",
-        "src-packets-master": "src-packets-master"
+        "src-packets-v0_6_1": "src-packets-v0_6_1"
       }
     },
-    "src-crc32-master": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1665405205,
-        "narHash": "sha256-0u1MFK5v0aKT46BHHm+iEyguYKvD36yun0YNvGXP83w=",
-        "owner": "juancarlospaco",
-        "repo": "nim-crc32",
-        "rev": "73dcdc937522e7b84ab7ab74ddfcdeff273305ab",
-        "type": "github"
-      },
-      "original": {
-        "owner": "juancarlospaco",
-        "ref": "refs/heads/master",
-        "repo": "nim-crc32",
-        "type": "github"
-      }
-    },
-    "src-packedjson-0_2_2": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1607177406,
-        "narHash": "sha256-veQIFTkdECd7gS7SCJcxDdhZCUsIO11YHOwcgYrNAow=",
-        "owner": "Araq",
-        "repo": "packedjson",
-        "rev": "d11d167905f65935e31772c1edec88ca8fe055e2",
-        "type": "github"
-      },
-      "original": {
-        "owner": "Araq",
-        "ref": "refs/tags/0.2.2",
-        "repo": "packedjson",
-        "type": "github"
-      }
-    },
-    "src-packets-master": {
+    "src-packets-v0_6_1": {
       "flake": false,
       "locked": {
         "lastModified": 1668377198,
@@ -309,7 +219,7 @@
       },
       "original": {
         "owner": "Q-Master",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/v0.6.1",
         "repo": "packets.nim",
         "type": "github"
       }
